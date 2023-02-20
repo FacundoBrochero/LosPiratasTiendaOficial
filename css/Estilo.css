@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* h1h2h3h4 */
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    background-color: lightblue;
+    border: 0.2rem solid blue;
+    margin-left: 30rem;
+    padding: 2rem;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 6rem;
+    padding-top: 1rem;
+    background-color: lightblue;
+    border: 0.2rem solid blue;
+    margin-top: 4rem;
+}
+
+h3{
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3rem;
+    
+}
+
+/* parrafos */
+
+p{
+    text-align: left;
+    font-size: 3rem;
+    margin-left: 51rem;    
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* titulos */
+
+.somos{
+    background-color: grey;
+    margin-top: 1rem;
+}
+
+
+
+/* Nav */
+
+
+nav{
+    background-color: violet;
+    margin-left: 30rem;    
+    font-size: 2rem;
+    border: 0.2rem solid darkviolet;
+    padding: 1.5rem;
+}
+
+
+#navbarNav {
+    display: flex;
+    justify-content:end;
+    margin: 1.5rem   
+}
+
+.nav-link {
+    margin-right: 8rem;
+    color: black;
+}
+
+
+
+
+
+
+/* main */
+
+#maincontactos ul{
+    font-size: 2.5rem;
+    margin-left: 7rem;    
+    padding: 6rem;
+}
+
+#maincontactos fieldset{
+    position: absolute;
+    top: 57rem;
+    padding: 6rem;
+    margin-bottom: 3rem;
+    
+}
+
+.formulario{
+    font-size: 2rem;
+}
+
+.botones{
+    position: absolute;
+    top: 115rem;
+}
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    margin-top: 35rem;
+}
+
+
+footer ul{
+    position: absolute;         
+    
+}
+
+footer ul li{
+    padding: 1rem;
+    list-style-type: none;  
+    
+    
+}
+
+footer ul li a{
+    
+    text-decoration: none;    
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+
+
+
+
+/* imagenes portada y logos */
+
+
+.logoquienessomos img{
+    padding-top: 10rem;
+    height:50rem;
+    position: absolute;
+    
+}
+
+.logoempresa img{
+    width: 30rem;
+    height: 20rem;
+    position: absolute;
+    top: 0rem;
+    
+
+}
+
+.portada img{
+    
+    height: 37.1rem;
+    margin-top: 15rem;
+    margin-bottom: 4rem;
+
+}
+
+.belgranoescudo{
+    height: 5rem;
+    margin: 3rem;
+    
+}
+
+.pumaescudo{
+    height: 5rem;
+    margin: 3rem;
+    
+}
+
+.adidasescudo{
+    height: 5rem;
+    margin: 3rem;
+    
+}
+
+.kongoescudo{
+    height: 5rem;
+    margin: 3rem;
+    
+}
+
+.nikeescudo{
+    height: 5rem;
+    margin: 3rem;
+   
+}
+
+.mapa{
+    height: 16rem;
+    width: 15rem;
+    position: relative;
+    bottom: 3rem;
+    left: 1rem;
+      
+    
+}
+
+.escudos{
+    float: right;
+    padding: 2rem;   
+     
+}   
+
+
+
+/* indumentaria */
+
+.adidas{
+    display: flex; 
+    padding: 6rem;    
+    margin: 5rem;
+    
+}
+.adidas img{
+    height: 35rem;
+    margin-left: 7rem;
+}
+
+.nike{
+    display: flex;
+    padding: 6rem;    
+    margin: 5rem;
+    
+}
+
+.nike img{
+    height: 50rem;
+    margin-left: 1rem;
+}
+
+.belgrano{
+    display: flex;
+    padding: 6rem;    
+    margin: 5rem;
+    
+}
+
+.belgrano img{
+    height: 50rem;
+    margin-left: 4rem;
+
+}
+
+.kok{
+    display: flex;
+    padding: 6rem;    
+    margin: 10rem;
+        
+}
+
+.kok img{
+    height: 50rem;
+    margin-left: 5rem;
+}
+
+.puma{
+    display: flex;
+    padding: 6rem;    
+    margin: 10rem;
+    
+}
+
+.puma img{
+    height: 50rem;
+    margin-left: 4rem;
+}
+
+/* calzados */
+
+.zapatillasadidas{
+    display: flex;
+    margin-left: 9rem;  
+   
+}
+
+.zapatillasadidas img{
+    height: 50rem;
+    margin: 6rem;
+    
+}
+
+
+.zapatillasnike{
+    display: flex;
+    margin-left: 6rem;
+
+}
+
+.zapatillasnike img{
+    height: 40rem;
+    margin: 15rem;
+
+}
+
+.zapatillaspuma{
+    display: flex;
+    margin-left: 10rem;
+
+
+}
+
+.zapatillaspuma img{
+    height: 40rem;
+    margin: 10rem;
+
+}
+
+.zapatillaskok{
+    display: flex;
+    margin-left: 10rem;
+
+}
+.zapatillaskok img{
+    height: 40rem;
+    margin: 15rem;
+
+}
+
+

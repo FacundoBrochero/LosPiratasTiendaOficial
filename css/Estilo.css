@@ -7,55 +7,13 @@ html {
     font-size: 62.5%;
 }
 
-#grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-        "header"
-        "main"
-        "footer";
-}
-
-header {
-    grid-area: header;
-
-}
-
-main {
-    grid-area: main;
-}
-
-footer {
-    grid-area: footer;
-    display: flex;
-    justify-content: space-between;
-}
-
-
-footer ul {
-    margin-left: -3rem ;    
-    list-style: none;
-    
-}
-
-footer ul li {
- margin: 1rem;  
-    
-
-}
-
-footer ul li a {
-    font-size: 1rem;
-    padding: 0.5rem;
-}
-
+/* Titulos y Textos */
 h1 {
     text-align: center;
-    font-size: 3rem;
-    border: 0.1rem solid blue;
-    padding: 3rem;
-    margin-bottom: 1rem;
-    background-color: lightblue;
+    font-size: 5rem;
+    background-color: whitesmoke;
+    padding: 5rem;
+    font-family: rorboto;
 }
 
 h2 {
@@ -65,354 +23,294 @@ h2 {
     margin-bottom: 3rem;
 }
 
-h3 {
+.titulosecundario h2 {
+
+    font-size: 6rem;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+
+.tituloterciario h3 {
     text-align: center;
     margin-bottom: 3rem;
+    font-size: 4rem;
+    margin-bottom: 8rem;
+    margin-top: 7rem;
 }
 
-p{
-    margin-bottom: 7.5rem;
-    font-size: 1.5rem;
-    text-align: center
-
+.contacto ul {
+    font-size: 2rem;
+    margin-left: 3rem;
 }
 
-nav{
-    background-color: white;
+.formulario {
+    display: flex;   
+    justify-content: center;
         
+}
+
+.form{
+   margin: 5rem;
+   font-size: 1.5rem;
+   
+   
+}
+
+.promocion{
+
+    text-align: left;
+    font-size: 2rem;
+    margin: 10rem;
+}
+
+fieldset{
+    margin-top: 3rem;
+    border: 0.1rem solid blue;
+    text-align: left;  
+    margin-bottom: 2rem;
+}
+
+/* Pagina quienes Somos */
+.tituloquienessomos_estructura {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.tituloquienessomos_estructura__logotiposomos img {
+    height: 60rem;
+}
+
+.tituloquienessomos_estructura__parrafo--tamaño {
+    margin: 0;
+    font-size: 4rem;
+    text-align: left;
+}
+
+/* pagina Indumentaria */
+.remeras {
+
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+}
+
+.remeras img {
+    height: 30rem;
+    width: 30rem;
+    border: 0.5rem solid blue;
+    margin-bottom: 5rem;
+}
+
+/* pagina zapatillas */
+
+
+.zapatillas {
+
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+}
+
+.zapatillas img {
+
+    height: 30rem;
+    width: 30rem;
+    border: 0.5rem solid blue;
+    margin-bottom: 5rem;
+
+}
+
+/* Nav */
+
+.logoempresa img {
+
+    height: 10rem;
+    width: 10rem;
 }
 
 .navbar {
 
-    margin-bottom: 0rem;
-    font-size: 3rem;
-
-}
-
-.nav-link {
-    text-align: center;
-    border: 0.2rem solid blue;
+    font-size: 1rem;
+    font-style: oblique;
     background-color: lightblue;
-    font-weight: bolder;
+    color: antiquewhite;
+    font-size: 2rem;
+
+}
+
+
+.navbar li {
+
     color: black;
-}
-
-
-
-.logoquienessomos img{
-    height: 0px;
-}
-
-
-
-.remeras {
-    margin: 3rem;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr;       
-    gap: 20px;
 
 }
 
-.remeras img {
-    
-
-    width: 20%;
-    height: 25%S;   
-    border: 0.2rem solid blue;
-    
-}
-
-.zapatillas {
-    margin: 3rem;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr;    
-    gap: 20px;
-}
-
-.zapatillas img {
-    width: 20%;
-    height: 25%S;   
-    border: 0.2rem solid blue;
+#navbarNav {
+    justify-content: center;
 
 }
 
 
+.nav-item {
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
 
-.logoempresa img {
-
-    height: 35rem;
-    width: 100%;
-    border-bottom: 0.2rem solid black;
-    border-top: 0.5rem solid black;
-    margin-bottom: 1.5rem;
 }
 
-
+/* mainss */
 
 .portada img {
 
+    margin-top: 8rem;
+    width: auto;
+    height: 100vh;
+    margin-bottom: 8rem;
+
+}
+
+
+
+/* footer */
+
+footer {
+
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(25, 0, 255);
+    display: inline-block;
+    margin: 20px;
+    font-size: 50px;
+}
+
+span {
+    font-style: oblique;
+    font-size: 2rem;
+
+}
+@media screen and (max-width: 1024px){
+
+h1 {
+        
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: whitesmoke;
+    padding: 4rem;
+    
+}
+
+.navbar {
+    
+    font-style: oblique;
+    background-color: lightblue;
+    font-size: 1.5rem;
+
+}
+.navbar-nav{
+    text-align: center;
+    
+}
+.portada img {
+
+    height: auto;
+    width: auto;
+}
+.nav-link{
+    margin-top: 1rem;
+    color: black;
+}
+
+.titulosecundario h2{
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.tituloterciario h3{
+    font-size: 1.8rem;
+}
+
+
+
+.tituloquienessomos_estructura{
+    display: block;
+
+}
+
+.tituloquienessomos_estructura__logotiposomos{
+    display: none;
+}
+
+.tituloquienessomos_estructura__parrafo--tamaño{
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+
+.remeras {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+
+}
+
+.remeras img{
+    border: 0.1rem solid orange;
     height: 20rem;
-    width: 100%;
-    margin-bottom: 10rem;
-}
-
-.escudos_mapa {
-    display: flex; 
-    align-items: end;  
-}
-
-.escudos_mapa img {
-    width: 25px;
-    height: 20px;    
-    margin: 1rem;
+    width: 20rem;
 
 }
 
-.escudos_mapa iframe {
-    width: 15rem;
-    height: 8rem;
-    margin-bottom: 1rem;
-
+.zapatillas{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
 }
 
-.formulario{
-    font-size: 1rem;
-    margin-left: 5rem;
-}
-
-.botones{
-    font-size: 1rem;
-    margin-left: 5rem;
-    margin-bottom: 6rem;
-
-}
-
-
-@media (min-width:1024px) {
-
-    /* h1h2h3h4 */
-
-    h1 {
-
-        font-size: 4rem;
-        background-color: lightblue;
-        border: 0.2rem solid blue;
-        margin-left: 30rem;
-        padding: 1.5rem;
-
-
-
-    }
-
-    h2 {
-        text-align: center;
-        font-size: 6rem;
-        padding-top: 1rem;
-        background-color: lightblue;
-        border: 0.2rem solid blue;
-        margin-top: 4rem;
-    }
-
-    h3 {
-        font-size: 4rem;
-        font-family: 'Roboto', sans-serif;
-        margin-top: 3rem;
-        text-align: center;
-
-    }
-
-    /* parrafos */
-
-    p {
-        text-align: left;
-        font-size: 3rem;
-        margin-left: 51rem;
-        padding-top: 10rem;
-        padding-bottom: 10rem;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    /* titulos */
-
-    .somos {
-        background-color: grey;
-        margin-top: 1rem;
-       
-    }
-
-    /* Nav */
-
-    /* nav {    
-         
-        background-color: violet;
-        margin-left: 30rem;        
-        border: 0.1rem solid darkviolet;
-        
-    } */
-
-    nav{
-        background-color: violet;
-        margin-left: 30rem;  
-        border: 0.1rem solid darkviolet;
-        
-    }
-
-    #navbarNav{
-        justify-content: center;
-
-    }
-
-    .navbar {               
-
-
-        font-size: 2rem;
-    
-    }
-  
-    .nav-item{
-        margin-right: 2.5rem;
-        margin-left: 2.5rem;
-        
-    }
-    
-    .nav-link {
-        
-        
-        margin-top: 2rem;
-        margin-bottom: 2rem;        
-        border: 0;
-        background-color:violet;
-        font-weight: 500;
-        color: black;
-    }
-       
-    /* main */
-
-    #maincontactos ul {
-        font-size: 2.5rem;
-        margin-left: 7rem;
-        padding: 6rem;
-    }
-
-    #maincontactos fieldset {
-        position: absolute;
-        top: 57rem;
-        padding: 6rem;
-        margin-bottom: 3rem;
-    }
-
-    .formulario {
-        font-size: 2rem;
-    }
-
-    .botones {
-        position: absolute;
-        margin-left: 11rem;
-        top: 140rem;
-       
-    }
-
-    /* footer */
-
-    footer {
-        margin-top: 35rem;
-        display: flex;
-        justify-content: space-between;
-        
-
-    }
-    footer ul{
-        justify-content: end;
-        
-    }
-
-
-    footer ul li {
-        
-        display: flex;        
-        list-style-type: none;
-
-
-    }
-
-    footer ul li a {
-             
-        text-decoration: none;
-        font-size: 2rem;
-
-
-    }
-
-    /* imagenes portada y logos */
+.zapatillas img{
+    border: 0.1rem solid orange;
+    height: 20rem;
+    width: 20rem;
     
 
-    .logoquienessomos img {
-        padding-top: 10rem;
-        height: 50rem;
-        position: absolute;
-    }
-
-    .logoempresa img {
-        border: none;
-        width: 30rem;
-        height: 20rem;
-        position: absolute;
-        top: 0rem;
-    }
-
-    .portada img {
-
-        height: 4.3rem;
-        margin-top: 15rem;
-        margin-bottom: 4rem;
-    }
-    
-    
-    .escudos_mapa img {
-        margin-top: 1rem;
-        margin-right: 6rem;        
-        width: 10rem;
-        height: 6rem;
-        
-    }
-
-    .escudos_mapa iframe {
-        width: 21.5rem;
-        height: 15rem;
-    }
-
-    /* indumentaria */
-
-    .remeras {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-left: 9rem;
-        
-    }
-
-    .remeras img {
-
-        width: 40rem;
-        height: 40rem;
-        margin: 6rem;
-        border: 0.2rem solid blue;
-    }
-
-    /* calzados */
-
-    .zapatillas {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-left: 9rem;
-    }
-
-    .zapatillas img {
-        width: 40rem;
-        height: 40rem;
-        margin: 6rem;
-        border: 0.2rem solid blue;
-
-    }
 }
+.formulario {
+    
+    display: block;   
+    justify-content: right;
+            
+}
+
+.promocion{
+    text-align: left;
+    margin: 3rem;
+}
+
+.form{
+    text-align: center;
+    
+    margin: 5rem;
+    
+}
+
+fieldset{
+    margin-top: 3rem;
+    
+}
+
+.tituloterciario li {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+
+}
+

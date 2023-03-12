@@ -105,9 +105,34 @@ fieldset{
 
 /* pagina zapatillas */
 
+.zapatillasall {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;          
+}
 
-.zapatillas {
+.card-img-top{
+    display: flex;
+    height: 15rem;
+    width: 15rem;
+    align-items: center;
+    justify-items: center;
+}
 
+.card-title{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+
+
+
+/* .zapatillas {
     text-align: center;
     display: grid;
     justify-content: center;
@@ -115,14 +140,56 @@ fieldset{
     gap: 10rem;
 }
 
-.zapatillas img {
+.zapatillas-cards{
+    border: solid 0.2rem blue;
+    padding: 2rem;
+}
 
-    height: 30rem;
-    width: 30rem;
-    border: 0.5rem solid blue;
-    margin-bottom: 5rem;
+.zapatillas-cards p{
+
+    padding: 2rem;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.zapatillas ul {
+    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.zapatillas ul li {
+    list-style: none;
+    border: 0.01rem solid lightblue;
+    padding: 2rem;
 
 }
+
+.zapatillas ul li:hover {
+    background-color: lightblue;
+}   
+
+.zapatillas-cards a{
+    text-decoration: none;
+    font-size: 3rem;
+    padding: 1.5rem;
+    border: solid  0.01rem blue;
+}
+.zapatillas-cards a:hover{
+    background-color: aqua;
+}
+
+.zapatillas img {
+    border: 0.1rem solid lightblue;
+    transition: 1.5s;
+    height: 30rem;
+    width: 30rem;    
+    margin-bottom: 5rem;
+   
+}
+ */
 
 /* Nav */
 
@@ -241,7 +308,6 @@ h1 {
 }
 
 
-
 .tituloquienessomos_estructura{
     display: block;
 
@@ -271,13 +337,13 @@ h1 {
 
 }
 
-.zapatillas{
-    display: grid;
+.zapatillas{        
     grid-template-columns: 1fr;
     gap: 3rem;
 }
 
 .zapatillas img{
+    transition: 1.5s;
     border: 0.1rem solid orange;
     height: 20rem;
     width: 20rem;

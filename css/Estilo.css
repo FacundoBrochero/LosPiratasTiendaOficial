@@ -1,318 +1,279 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
-/* Titulos y Textos */
+/* Titulo */
 h1 {
-    text-align: center;
-    font-size: 5rem;
-    background-color: whitesmoke;
-    padding: 5rem;
-    font-family: roboto;
-}
-
-h2 {
-    margin-top: 2rem;
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 3rem;
+  text-align: center;
+  font-size: 5rem;
+  background-color: whitesmoke;
+  padding: 5rem;
+  font-family: roboto;
 }
 
 .titulosecundario h2 {
-    font-size: 6rem;
-    margin-bottom: 10rem;
-    margin-top: 5rem;
+  text-align: center;
+  font-size: 6rem;
+  margin-bottom: 10rem;
+  margin-top: 5rem;
 }
 
 .tituloterciario h3 {
-    text-align: center;
-    margin-bottom: 3rem;
-    font-size: 4rem;
-    margin-bottom: 8rem;
-    margin-top: 7rem;
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 8rem;
+  margin-top: 7rem;
 }
 
-.contacto ul {
-    font-size: 2rem;
-    margin-left: 3rem;
+.portada img {
+  margin-top: 8rem;
+  max-width: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  aspect-ratio: 16/10;
+  margin-bottom: 8rem;
 }
 
-.formulario {
-    display: flex;   
-    justify-content: center;
-        
-}
-
-.form{
-   margin: 5rem;
-   font-size: 1.5rem;
-   
-   
-}
-
-.promocion{
-
-    text-align: left;
-    font-size: 2rem;
-    margin: 10rem;
-}
-
-fieldset{
-    margin-top: 3rem;
-    border: 0.1rem solid blue;
-    text-align: left;  
-    margin-bottom: 2rem;
-}
-
-/* Pagina quienes Somos */
-.tituloquienessomos_estructura {
-    display: flex;
-    margin-bottom: 2rem;
-}
-
-.tituloquienessomos_estructura__logotiposomos img {
-    height: 60rem;
-}
-
-.tituloquienessomos_estructura__parrafo--tamaño {
-    margin: 0;
-    font-size: 4rem;
-    text-align: left;
-}
-
-/* pagina Indumentaria */
-.remeras {
-
-    text-align: center;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;
-    gap: 10rem;
-}
-
-.remeras img {
-    height: 30rem;
-    width: 30rem;
-    border: 0.5rem solid blue;
-    margin-bottom: 5rem;
-}
-
-/* pagina zapatillas */
-
-
-.zapatillas {
-
-    text-align: center;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;
-    gap: 10rem;
-}
-
-.zapatillas img {
-
-    height: 30rem;
-    width: 30rem;
-    border: 0.5rem solid blue;
-    margin-bottom: 5rem;
-
-}
-
+/* Estilos aplicados a todas las Paginas */
 /* Nav */
-
 .logoempresa img {
-
-    height: 10rem;
-    width: 10rem;
-}
-
-.navbar {
-
-    font-size: 1rem;
-    font-style: oblique;
-    background-color: lightblue;
-    color: antiquewhite;
-    font-size: 2rem;
-
-}
-
-
-.navbar li {
-
-    color: black;
-
+  height: 10rem;
+  width: 10rem;
 }
 
 #navbarNav {
-    justify-content: center;
-
+  justify-content: center;
 }
 
-
-.nav-item {
-    margin-right: 2.5rem;
-    margin-left: 2.5rem;
-
+.navbar {
+  justify-content: center;
+  font-size: 2.5rem;
+  font-style: oblique;
+  background-image: linear-gradient(to right, white, lightblue);
 }
-
-/* mainss */
-
-.portada img {
-    
-    margin-top: 8rem;
-    max-width: 100%;
-    min-width: 100%;
-    object-fit: cover;
-    aspect-ratio: 16/10;
-    margin-bottom: 8rem;
-
+.navbar ul {
+  text-align: center;
 }
-
-
+.navbar ul li {
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+}
+.navbar ul li a {
+  color: black;
+}
 
 /* footer */
-
 footer {
-
-    background-color: whitesmoke;
-    color: black;
-    text-align: center;
-    padding: 30px 0;
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  padding: 30px 0;
 }
-
 footer a {
-    text-decoration: none;
-    color: rgb(25, 0, 255);
-    display: inline-block;
-    margin: 20px;
-    font-size: 50px;
+  text-decoration: none;
+  color: blue;
+  display: inline-block;
+  margin: 20px;
+  font-size: 50px;
+}
+footer span {
+  font-style: oblique;
+  font-size: 2rem;
 }
 
-span {
-    font-style: oblique;
-    font-size: 2rem;
-
-}
-@media screen and (max-width: 1024px){
-
-h1 {
-        
+@media screen and (max-width: 1024px) {
+  .portada img {
+    height: auto;
+    width: auto;
+  }
+  h1 {
     text-align: center;
     font-size: 2.5rem;
     background-color: whitesmoke;
     padding: 4rem;
-    
-}
-
-.navbar {
-    
+  }
+  .navbar {
     font-style: oblique;
-    background-color: lightblue;
+    background-image: linear-gradient(to right, white, lightblue);
     font-size: 1.5rem;
-
-}
-.navbar-nav{
+  }
+  .navbar ul {
     text-align: center;
-    
-}
-.portada img {
-
-    height: auto;
-    width: auto;
-}
-.nav-link{
+  }
+  .navbar ul li a {
     margin-top: 1rem;
     color: black;
+  }
+}
+.tituloquienessomos_estructura {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.tituloquienessomos_estructura img {
+  height: 60rem;
+}
+.tituloquienessomos_estructura p {
+  margin: 0;
+  font-size: 4rem;
+  text-align: left;
 }
 
-.titulosecundario h2{
-    font-size: 2rem;
-    margin-bottom: 4rem;
-}
-
-.tituloterciario h3{
-    font-size: 1.8rem;
-}
-
-
-
-.tituloquienessomos_estructura{
+@media screen and (max-width: 1024px) {
+  .quienessomos_cuerpo {
+    margin-bottom: 35rem;
+  }
+  .quienessomos_cuerpo .tituloquienessomos_estructura {
     display: block;
-
-}
-
-.tituloquienessomos_estructura__logotiposomos{
+  }
+  .quienessomos_cuerpo .tituloquienessomos_estructura img {
     display: none;
+  }
+  .quienessomos_cuerpo .tituloquienessomos_estructura p {
+    font-size: 2.5rem;
+    margin-bottom: 8rem;
+  }
 }
-
-.tituloquienessomos_estructura__parrafo--tamaño{
-    font-size: 2rem;
-    margin-bottom: 4rem;
+@keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  100% {
+    box-shadow: inset 0 0 14px 0 rgba(0, 0, 0, 0.5);
+  }
 }
-
-
 .remeras {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+}
+.remeras img {
+  animation: shadow-inset-center 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  width: 30rem;
+  height: 30rem;
+  padding: 5rem;
+  border: 0.1rem solid blue;
+  margin-bottom: 5rem;
+  border-radius: 20px;
+}
+
+.zapatillas {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+}
+.zapatillas img {
+  animation: shadow-inset-center 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  width: 30rem;
+  height: 30rem;
+  padding: 5rem;
+  border: 0.1rem solid blue;
+  margin-bottom: 5rem;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  @keyframes shadow-drop-2-bottom {
+    0% {
+      transform: translateZ(0) translateY(0);
+      box-shadow: 0 0 0 0 transparent;
+    }
+    100% {
+      transform: translateZ(50px) translateY(-12px);
+      box-shadow: 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+    }
+  }
+  .remeras {
     display: grid;
     grid-template-columns: 1fr;
     gap: 3rem;
-
-}
-
-.remeras img{
-    border: 0.1rem solid orange;
-    height: 20rem;
+  }
+  .remeras img {
+    animation: shadow-drop-2-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     width: 20rem;
-
-}
-
-.zapatillas{
+    height: 20rem;
+    padding: 0;
+    border: 0.1rem solid orange;
+    margin-bottom: 0;
+    border-radius: 20px;
+  }
+  .zapatillas {
     display: grid;
     grid-template-columns: 1fr;
     gap: 3rem;
-}
-
-.zapatillas img{
-    border: 0.1rem solid orange;
-    height: 20rem;
+  }
+  .zapatillas img {
+    animation: shadow-drop-2-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     width: 20rem;
-    
-
+    height: 20rem;
+    padding: 0;
+    border: 0.1rem solid orange;
+    margin-bottom: 0;
+    border-radius: 20px;
+  }
 }
+.contacto ul li {
+  list-style: none;
+  font-size: 3rem;
+  margin-left: 3rem;
+}
+
 .formulario {
-    
-    display: block;   
-    justify-content: right;
-            
+  display: flex;
+  justify-content: center;
+}
+.formulario form {
+  margin: 5rem;
+  font-size: 1.5rem;
+}
+.formulario fieldset {
+  margin-top: 3rem;
+  border: 0.1rem solid blue;
+  text-align: left;
+  margin-bottom: 2rem;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #CCCCCC, #FFFFFF) repeat scroll 0 0 transparent;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 0 0 15px #AAAAAA;
+  -moz-box-shadow: 0 0 15px #AAAAAA;
+  box-shadow: 0 0 15px #AAAAAA;
 }
 
-.promocion{
+.promocion {
+  text-align: left;
+  font-size: 2rem;
+  margin: 10rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .formulario {
+    display: block;
+    justify-content: right;
+  }
+  .formulario form {
+    text-align: center;
+    margin: 5rem;
+  }
+  .formulario fieldset {
+    margin-top: 3rem;
+  }
+  .promocion {
     text-align: left;
     margin: 3rem;
-}
-
-.form{
-    text-align: center;
-    
-    margin: 5rem;
-    
-}
-
-fieldset{
-    margin-top: 3rem;
-    
-}
-
-.tituloterciario li {
+  }
+  .contacto li {
     font-size: 1.5rem;
     margin-left: 1rem;
+  }
 }
 
-
-}
-
+/*# sourceMappingURL=Estilo.css.map */

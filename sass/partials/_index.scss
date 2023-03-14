@@ -1,0 +1,129 @@
+@use "variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Titulo */
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    background-color: whitesmoke;
+    padding: 5rem;
+    font-family: roboto;
+}
+
+.titulosecundario  {
+    h2{
+        text-align: center;
+        font-size: 6rem;
+        margin-bottom: 10rem;
+        margin-top: 5rem;
+}
+}
+
+.tituloterciario  {
+    h3{
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 8rem;
+        margin-top: 7rem;
+    }
+}
+.portada { 
+        img{
+            margin-top: 8rem;
+            max-width: 100%;
+            min-width: 100%;
+            object-fit: cover;
+            aspect-ratio: 16/10;
+            margin-bottom: 8rem;
+}
+}
+/* Estilos aplicados a todas las Paginas */
+/* Nav */
+.logoempresa  { 
+        img{
+             height: 10rem;
+             width: 10rem;
+    }   
+}
+
+#navbarNav {
+    justify-content: center;
+}
+
+.navbar {
+    justify-content: center;
+    font-size: 2.5rem;
+    font-style: oblique;
+    background-image: linear-gradient( to right, white, lightblue);
+
+    ul {
+        text-align: center;
+
+        li {
+            margin-right: 2.5rem;
+            margin-left: 2.5rem;
+
+            a {
+                color: black;
+            }
+        }
+    }
+}
+/* footer */
+footer {
+    background-color: whitesmoke;
+    color: variables.$negro;
+    text-align: center;
+    padding: 30px 0;
+    a {
+        text-decoration: none;
+        color: variables.$azul;
+        display: inline-block;
+        margin: 20px;
+        font-size: 50px;
+    }
+    span {
+        font-style: oblique;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .portada  {
+            img{
+                 height: auto;
+                 width: auto;
+        }
+    }
+    h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        background-color: whitesmoke;
+        padding: 4rem;
+    }
+    .navbar {
+        font-style: oblique;
+        background-image: linear-gradient( to right, white, lightblue);
+        font-size: 1.5rem;
+
+        ul {
+            text-align: center;
+
+            li {
+                a {
+                    margin-top: 1rem;
+                    color: black;
+                }
+            }
+        }
+    }
+}

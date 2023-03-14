@@ -13,32 +13,32 @@ html {
 /* Titulo */
 h1 {
     text-align: center;
-    font-size: 5rem;
+    font-size: (variables.$m*3)-1;
     background-color: whitesmoke;
-    padding: 5rem;
+    padding: (variables.$m*3)-1;
     font-family: roboto;
 }
 
 .titulosecundario  {
     h2{
         text-align: center;
-        font-size: 6rem;
-        margin-bottom: 10rem;
-        margin-top: 5rem;
+        font-size: variables.$m*3;
+        margin-bottom: variables.$m*5;
+        margin-top: (variables.$m*3)-1;
 }
 }
 
 .tituloterciario  {
     h3{
         text-align: center;
-        font-size: 4rem;
-        margin-bottom: 8rem;
-        margin-top: 7rem;
+        font-size: variables.$m*2;
+        margin-bottom: variables.$m*4;
+        margin-top: (variables.$m*4)-1;
     }
 }
 .portada { 
         img{
-            margin-top: 8rem;
+            margin-top: variables.$m*4;
             max-width: 100%;
             min-width: 100%;
             object-fit: cover;
@@ -73,7 +73,7 @@ h1 {
             margin-left: 2.5rem;
 
             a {
-                color: black;
+                color: variables.$negro;
             }
         }
     }
@@ -92,7 +92,7 @@ footer {
         font-size: 50px;
     }
     span {
-        font-style: oblique;
+        font-family: variables.$letra;        
         font-size: 2rem;
     }
 }
@@ -121,7 +121,7 @@ footer {
             li {
                 a {
                     margin-top: 1rem;
-                    color: black;
+                    color: variables.$negro;
                 }
             }
         }

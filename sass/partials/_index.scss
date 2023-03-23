@@ -38,13 +38,20 @@ h1 {
 }
 .portada { 
         img{
-            margin-top: 8rem;
+            margin-top: 1rem;
             max-width: 100%;
             min-width: 100%;
             object-fit: cover;
             aspect-ratio: 16/10;
-            margin-bottom: 8rem;
+            margin-bottom: 1rem;
 }
+
+
+}
+.d-block{
+    height: variables.$t*15;
+    width: variables.$t*21;
+    margin-bottom: 1rem;
 }
 /* Estilos aplicados a todas las Paginas */
 /* Nav */
@@ -125,5 +132,10 @@ footer {
                 }
             }
         }
+    }
+    .d-block{
+        height: variables.$t*6;
+        width: variables.$t*9;
+        margin-bottom: 1rem;
     }
 }

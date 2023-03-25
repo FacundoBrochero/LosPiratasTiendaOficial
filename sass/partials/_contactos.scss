@@ -1,12 +1,12 @@
 .contacto {
     ul {
-        margin-bottom: 7rem;    
+        margin-bottom: 7rem;
 
         li {
             list-style: none;
             font-size: 3rem;
             margin-left: 75rem;
-            
+
         }
     }
 }
@@ -15,12 +15,13 @@
     display: flex;
     justify-content: left;
     margin-left: 3rem;
-    h4{
+
+    h4 {
         font-size: 3rem;
         margin-top: 3rem;
         margin-bottom: 5rem;
     }
-    
+
 
     form {
         margin: 8rem;
@@ -37,7 +38,7 @@
         -webkit-box-shadow: 0 0 15px #AAAAAA;
         -moz-box-shadow: 0 0 15px #AAAAAA;
         box-shadow: 0 0 15px #AAAAAA;
-        
+
     }
 }
 
@@ -53,13 +54,15 @@
         display: block;
         justify-content: right;
         margin: 5rem;
-        
-        h4{
-            font-size: 2rem;           
+
+        h4 {
+            font-size: 2rem;
         }
-        form {            
+
+        form {
             margin: 5rem;
         }
+
         fieldset {
             margin-top: 3rem;
         }
@@ -72,11 +75,11 @@
     }
 
     .contacto {
-        ul{
-        li {
-            font-size: 2rem;
-            margin-left: 4rem;
+        ul {
+            li {
+                font-size: 2rem;
+                margin-left: 4rem;
+            }
         }
-    }
     }
 }

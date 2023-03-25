@@ -19,45 +19,48 @@ h1 {
     font-family: roboto;
 }
 
-.titulosecundario  {
-    h2{
+.titulosecundario {
+    h2 {
         text-align: center;
         font-size: variables.$m*3;
         margin-bottom: variables.$m*5;
         margin-top: (variables.$m*3)-1;
-}
+    }
 }
 
-.tituloterciario  {
-    h3{
+.tituloterciario {
+    h3 {
         text-align: center;
         font-size: variables.$m*2;
         margin-bottom: variables.$m*4;
         margin-top: (variables.$m*4)-1;
     }
 }
-.portada { 
-        img{
-            margin-top: variables.$m*1;
-            max-width: 100%;
-            min-width: 100%;
-            object-fit: cover;
-            aspect-ratio: 16/10;
-            margin-bottom: 1rem;
+
+.portada {
+    img {
+        margin-top: variables.$m*1;
+        max-width: 100%;
+        min-width: 100%;
+        object-fit: cover;
+        aspect-ratio: 16/10;
+        margin-bottom: 1rem;
+    }
 }
-}
-.d-block{
+
+/* carousel */
+.d-block {
     height: variables.$m*15;
     width: variables.$m*21;
     margin-bottom: 1rem;
 }
-/* Estilos aplicados a todas las Paginas */
+
 /* Nav */
-.logoempresa  { 
-        img{
-             height: 10rem;
-             width: 10rem;
-    }   
+.logoempresa {
+    img {
+        height: 10rem;
+        width: 10rem;
+    }
 }
 
 #navbarNav {
@@ -68,7 +71,7 @@ h1 {
     justify-content: center;
     font-size: 2.5rem;
     font-style: oblique;
-    background-image: linear-gradient( to right, white, lightblue);
+    background-image: linear-gradient(to right, white, lightblue);
 
     ul {
         text-align: center;
@@ -83,12 +86,14 @@ h1 {
         }
     }
 }
+
 /* footer */
 footer {
     background-color: whitesmoke;
     color: variables.$negro;
     text-align: center;
     padding: 30px 0;
+
     a {
         text-decoration: none;
         color: variables.$azul;
@@ -96,28 +101,31 @@ footer {
         margin: 20px;
         font-size: 50px;
     }
+
     span {
-        font-family: variables.$letra;        
+        font-family: variables.$letra;
         font-size: 2rem;
     }
 }
 
 @media screen and (max-width: 1024px) {
-    .portada  {
-            img{
-                 height: auto;
-                 width: auto;
+    .portada {
+        img {
+            height: auto;
+            width: auto;
         }
     }
+
     h1 {
         text-align: center;
         font-size: 2.5rem;
         background-color: whitesmoke;
         padding: 4rem;
     }
+
     .navbar {
         font-style: oblique;
-        background-image: linear-gradient( to right, white, lightblue);
+        background-image: linear-gradient(to right, white, lightblue);
         font-size: 1.5rem;
 
         ul {
@@ -131,7 +139,8 @@ footer {
             }
         }
     }
-    .d-block{
+
+    .d-block {
         height: variables.$m*6;
         width: variables.$m*9;
         margin-bottom: 1rem;

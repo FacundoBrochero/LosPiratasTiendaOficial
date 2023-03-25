@@ -1,19 +1,29 @@
 .contacto {
     ul {
+        margin-bottom: 7rem;    
+
         li {
             list-style: none;
             font-size: 3rem;
-            margin-left: 3rem;
+            margin-left: 75rem;
+            
         }
     }
 }
 
 .formulario {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 3rem;
+    h4{
+        font-size: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+    }
+    
 
     form {
-        margin: 5rem;
+        margin: 8rem;
         font-size: 1.5rem;
     }
 
@@ -22,9 +32,8 @@
         border: 0.1rem solid blue;
         text-align: left;
         margin-bottom: 2rem;
-        border-radius: 30px;
+        border-radius: 80px;
         background: linear-gradient(90deg, #CCCCCC, #FFFFFF) repeat scroll 0 0 transparent;
-        border-radius: 10px 10px 10px 10px;
         -webkit-box-shadow: 0 0 15px #AAAAAA;
         -moz-box-shadow: 0 0 15px #AAAAAA;
         box-shadow: 0 0 15px #AAAAAA;
@@ -35,22 +44,26 @@
 .promocion {
     text-align: left;
     font-size: 2rem;
-    margin: 10rem;
+    margin-top: 36rem;
+    margin-left: 4rem;
 }
 
 @media screen and (max-width: 1024px) {
     .formulario {
         display: block;
         justify-content: right;
-
-        form {
-            text-align: center;
+        margin: 5rem;
+        
+        h4{
+            font-size: 2rem;           
+        }
+        form {            
             margin: 5rem;
         }
-
         fieldset {
             margin-top: 3rem;
         }
+
     }
 
     .promocion {
@@ -59,9 +72,11 @@
     }
 
     .contacto {
+        ul{
         li {
-            font-size: 1.5rem;
-            margin-left: 1rem;
+            font-size: 2rem;
+            margin-left: 4rem;
         }
+    }
     }
 }

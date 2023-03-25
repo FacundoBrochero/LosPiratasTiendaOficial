@@ -127,7 +127,9 @@ footer span {
   margin-bottom: 2rem;
 }
 .tituloquienessomos_estructura img {
-  height: 60rem;
+  margin-bottom: 10rem;
+  height: 55rem;
+  margin-top: -10rem;
 }
 .tituloquienessomos_estructura p {
   margin: 0;
@@ -164,6 +166,7 @@ footer span {
   justify-content: center;
   grid-template-columns: 1fr 1fr;
   gap: 10rem;
+  margin-bottom: 6rem;
 }
 .remeras .efect:hover {
   transform: scale(1.2, 1.2);
@@ -178,6 +181,13 @@ footer span {
   margin-bottom: 5rem;
   border-radius: 20px;
 }
+.remeras h4 {
+  font-size: 2rem;
+}
+.remeras p {
+  font-size: 3rem;
+  text-align: center;
+}
 
 .zapatillas {
   text-align: center;
@@ -185,6 +195,7 @@ footer span {
   justify-content: center;
   grid-template-columns: 1fr 1fr;
   gap: 10rem;
+  margin-bottom: 6rem;
 }
 .zapatillas .efect:hover {
   transform: scale(1.2, 1.2);
@@ -232,6 +243,12 @@ footer span {
     margin-bottom: 0;
     border-radius: 20px;
   }
+  .remeras h4 {
+    font-size: 1.5rem;
+  }
+  .remeras p {
+    font-size: 2rem;
+  }
   .zapatillas {
     display: grid;
     grid-template-columns: 1fr;
@@ -253,18 +270,27 @@ footer span {
     font-size: 2rem;
   }
 }
+.contacto ul {
+  margin-bottom: 7rem;
+}
 .contacto ul li {
   list-style: none;
   font-size: 3rem;
-  margin-left: 3rem;
+  margin-left: 75rem;
 }
 
 .formulario {
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  margin-left: 3rem;
+}
+.formulario h4 {
+  font-size: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
 }
 .formulario form {
-  margin: 5rem;
+  margin: 8rem;
   font-size: 1.5rem;
 }
 .formulario fieldset {
@@ -272,9 +298,8 @@ footer span {
   border: 0.1rem solid blue;
   text-align: left;
   margin-bottom: 2rem;
-  border-radius: 30px;
+  border-radius: 80px;
   background: linear-gradient(90deg, #CCCCCC, #FFFFFF) repeat scroll 0 0 transparent;
-  border-radius: 10px 10px 10px 10px;
   -webkit-box-shadow: 0 0 15px #AAAAAA;
   -moz-box-shadow: 0 0 15px #AAAAAA;
   box-shadow: 0 0 15px #AAAAAA;
@@ -283,16 +308,20 @@ footer span {
 .promocion {
   text-align: left;
   font-size: 2rem;
-  margin: 10rem;
+  margin-top: 36rem;
+  margin-left: 4rem;
 }
 
 @media screen and (max-width: 1024px) {
   .formulario {
     display: block;
     justify-content: right;
+    margin: 5rem;
+  }
+  .formulario h4 {
+    font-size: 2rem;
   }
   .formulario form {
-    text-align: center;
     margin: 5rem;
   }
   .formulario fieldset {
@@ -302,9 +331,9 @@ footer span {
     text-align: left;
     margin: 3rem;
   }
-  .contacto li {
-    font-size: 1.5rem;
-    margin-left: 1rem;
+  .contacto ul li {
+    font-size: 2rem;
+    margin-left: 4rem;
   }
 }
 

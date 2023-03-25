@@ -60,6 +60,14 @@
         animation: shadow-inset-center .8s cubic-bezier(.25, .46, .45, .94) both;
         @include dimensiones(30rem, 30rem, 5rem, 0.1rem solid blue, 5rem, 20px)
     }
+
+    h4{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 3rem;
+        text-align:center;
+    }
 }
 
 
@@ -94,11 +102,16 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 3rem;
-
-        
+       
         img {
             animation: shadow-drop-2-bottom 1s cubic-bezier(.25, .46, .45, .94) both;
             @include dimensiones(20rem, 20rem, 0, 0.1rem solid orange, 0, 20px);
+        }
+        h4{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 2rem;
         }
     }
 }
